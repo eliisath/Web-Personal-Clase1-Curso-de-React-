@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario Login</title>
+    <link href="/CSS LOGIN/estilos.css" rel= 'stylesheet'/>
+    
+</head>
+<body>
+    <div class="contenedor">
+        <h2>Login</h2>
+        <form id="forma" name="forma" method="post">
+            <div class="elemento">
+                <label for="usuario">Usuario</label>    
+                <input type="text" id="usuario" name="usuario" required="true"/>
+            </div>
+            <div class="elemento">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" required="true"/>
+            </div>
+            <div class="elemento">
+                <input type="button" value="Enviar" onclick="ingresar()"/>
+            </div>
+        </form>
+    </div>
+
+    <script>
+        function ingresar() {
+            window.location = "/Pagina Elisa.html";
+        }
+    </script>
+</body>
+</html>

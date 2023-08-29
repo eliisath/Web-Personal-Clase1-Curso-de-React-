@@ -1,0 +1,94 @@
+﻿h1{ 
+color: violet;
+text-align: center;
+    }
+    
+a:link, a:visited{ 
+      background-color: #e4405b;
+      color: #eaf2f8;
+       padding: 15px 25px;
+       text-align: center;
+       text-decoration: none;
+       display: inline-block;
+       border-radius: 15px;
+       cursor: pointer;
+    }
+    
+a:hover, a:active{
+      background-color: #cb6ae4;
+     
+    }
+    table{ 
+        width: 100%;
+        }
+    table, th, td{
+        border: 1px solid black;
+        border-collapse: collapse;
+        padding: 5px;
+    }
+    td{
+        text-align: center;
+    }
+    th{
+        text-align: center;
+    }
+    caption{
+        color: #e4405b;
+        font-family:'Trocchi', serif;
+        font-size: 45px;
+        line-height: 70px;
+    }
+
+    th{
+        color: #e4405b;
+        background-color: lightcoral;
+    }
+/*renglones pares*/
+tr:nth-child(even){
+    background-color: white
+}
+
+/*renglones impares*/
+tr:nth-child(odd){
+    background-color: lightpink
+}
+  
+/*Clase de CSS*/
+
+.tarjeta{
+    border: 20px solid violet;
+    background-color:bisque;
+    text-align: center;
+    margin: 10px 100px;
+    padding: 20px;
+}
+.fondo{
+     background-color:lightpink;
+}
+ .titulo{
+    color:violet 
+}
+div.contenedor{
+    position: relative;
+    border-radius: 30px;
+    width: 30%;
+    margin: auto;
+}
+img.imagen{
+    width: 70%; 
+    opacity: 0.8;
+    border-radius: 25px;
+}
+div.centro{
+    position: absolute;
+    top: 50%;
+    width: 70%;
+    text-align: center;
+    font-size: 25px;
+}
+.d-flex{
+    display: flex;
+}
+.justify-content-center{
+    justify-content: center;
+}
